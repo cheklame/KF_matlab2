@@ -1,10 +1,10 @@
 clear all;
 figure(1);clf
 
-%%droite (cas linéaire vitesse constante et acceleration null)
+%%droite (cas linÃ©aire vitesse constante et acceleration null)
 %% [4,4]
 
-fe = 30; % fréquence d'échantillonnage
+fe = 30; % frÃ©quence d'Ã©chantillonnage
 temps = 10; % temps total de mesure en seconde
 
 
@@ -111,7 +111,7 @@ xlabel('temps');ylabel('Y');
 clear all;
 figure(2);clf
 
-fe = 30; % fréquence d'échantillonnage
+fe = 30; % frÃ©quence d'Ã©chantillonnage
 temps = 10; % temps total de mesure en seconde
 
 
@@ -201,6 +201,7 @@ plot(t2,vec_etat(:,1),'r');hold on;
 plot(t2,X_sav(:,1),'g');
 legend('graphe en t/X');
 xlabel('temps');ylabel('X');
+
 
 subplot(1, 3, 3);hold on;
 plot(t2,vec_etat(:,2),'r');hold on;
